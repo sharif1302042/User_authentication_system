@@ -1,0 +1,36 @@
+.navbar-brand{
+	padding: 40px;
+	font-size: 30px;
+	
+}
+.navbar{
+	style="position: fixed;
+}
+
+.navbar a:hover{
+    background-color: green;
+
+}
+.asteriskField{
+	display: none;
+}
+
+form .alert ul li{
+	list-style: none;
+}
+form ul{
+	padding: 0;
+	margin: 0;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.element {
+  @include clearfix;
+}
